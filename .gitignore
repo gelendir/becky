@@ -1,0 +1,3 @@
+*.pyc
+sounds/*.wav
+logs/*.log
