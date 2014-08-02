@@ -1,0 +1,31 @@
+; Configuration parameters for Becky IVR.
+; don't forget to include this file in your asterisk config !
+
+[globals](+)
+
+; folder with various files needed for the becky ivr
+BECKY_DIR=/var/lib/asterisk/becky
+
+; directory where to save recordings. must be writable by user asterisk
+BECKY_RECORDINGS=/var/lib/asterisk/becky/recordings
+
+; number of seconds to wait before replaying a prompt
+BECKY_TIMEOUT=5
+
+; number of seconds to wait after a recording
+BECKY_SILENCE=1
+
+; the following parameters are mainly used for preventing
+; spam and overbilling attacks.
+
+; maximum duration of a call in seconds
+BECKY_MAX_DURATION=300
+
+; total calls allowed per phone number.
+BECKY_MAX_CALLS_PER_NUMBER=5
+
+; total calls allowed per minute.
+BECKY_MAX_CALLS_PER_MINUTE=20
+
+; total simultaneous calls allowed.
+BECKY_MAX_CONCURRENT_CALLS=5

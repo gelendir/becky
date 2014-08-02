@@ -1,3 +1,4 @@
 *.pyc
 sounds/*.wav
 logs/*.log
+dialplan/config.conf
