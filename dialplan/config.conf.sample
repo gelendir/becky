@@ -20,12 +20,3 @@ BECKY_SILENCE=1
 
 ; maximum duration of a call in seconds
 BECKY_MAX_DURATION=300
-
-; total calls allowed per phone number.
-BECKY_MAX_CALLS_PER_NUMBER=5
-
-; total calls allowed per minute.
-BECKY_MAX_CALLS_PER_MINUTE=20
-
-; total simultaneous calls allowed.
-BECKY_MAX_CONCURRENT_CALLS=5
